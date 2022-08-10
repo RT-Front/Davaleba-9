@@ -1,0 +1,170 @@
+.back_img{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    margin-top: 195px;
+}
+
+.top_div{
+    display: flex;
+    position: relative;
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_div h2{
+    font-family: 'helvetica_bold';
+    margin-top: 30px;
+    font-size: 30px;
+    align-self: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 96, 27, 0.5);
+    position: absolute;
+    color: #ffff;
+    height: 96%;
+    width: 97%;
+}
+.contacts{
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone, .email, .adress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone{
+    margin-left: 100px;
+}
+.email{
+    margin-left: 130px;
+}
+.adress{
+    margin-right: 30px;
+}
+.contacts img{
+    margin-bottom: 35px;
+}
+
+.contacts p{
+    font-family: 'helvetica_medium';
+    font-size: 26px;
+}
+
+
+
+.registration{
+    font-family: 'helvetica_medium';
+    margin-top: 225px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.registration input{
+    margin-top: 10px;
+    width: 295px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+}
+
+.name_surname{
+    display: flex;
+}
+
+.last_name{
+    margin-left: 120px;
+}
+
+
+
+
+
+.phone_email{
+    display: flex;
+    margin-top: 55px;
+}
+
+.phone_number input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    appearance:none;
+}
+
+.email_wrapper{
+    margin-left: 120px;
+}
+
+.letter_wrapper{
+    margin-top: 90px;
+}
+textarea{
+    margin-top: 10px;
+    resize: none;
+    border: none;
+    border-radius: 12px;
+    width: 710px;
+}
+
+
+
+
+
+
+
+
+.adress_map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.adress_map h2{
+    font-family: 'helvetica_bold';
+    font-size: 30px;
+}
+
+.map_div{
+    margin-top: 55px;
+    padding: 65px 80px;
+    border: 1px solid rgba(1, 96, 27, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'helvetica_bold';
+    src: url(../fonts/Helvetica\ Neu\ Bold.ttf);
+}
+@font-face {
+    font-family: 'helvetica_medium';
+    src: url(../fonts/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+    font-family: 'helvetica_light';
+    src: url(../fonts/HelveticaNeue\ Light.ttf);
+}
+@font-face {
+    font-family: 'helvetica_regular';
+    src: url(../fonts/HelveticaNeue.ttf);
+}
